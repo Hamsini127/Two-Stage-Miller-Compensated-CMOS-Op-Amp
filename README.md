@@ -13,9 +13,8 @@ This project focuses on schematic-level analog IC design, simulation, debugging,
 ## Why I Did This Project
 
 This was my first ever Analog IC Design project and so I wanted to gain practical experience using Cadence Virtuoso and to experience the complete design flow end-to-end. The goal was not just to simulate an op-amp, but to understand the full design process behind it: architecture selection, transistor sizing, biasing, compensation, stability analysis, large-signal behavior, PVT robustness, and mismatch offset verification. This helped me connect textbook analog design concepts with practical Cadence-based simulation and debugging.
+
 ---
-
-
 
 ## Target Specifications
 
@@ -52,10 +51,6 @@ More detailed results can be seen in [`results.md`](results.md)
 
 ---
 
-
-
----
-
 ## Simulations Performed
 
 | Simulation           | Purpose                                                   | Result / Screenshot                        |
@@ -70,8 +65,6 @@ More detailed results can be seen in [`results.md`](results.md)
 | Load Sweep           | Verify stability for different load capacitances          | [View](simulations/load_sweep.png)         |
 | PVT Analysis         | Check robustness across process, voltage, and temperature | [View](simulations/pvt_summary.png)        |
 | Monte Carlo Offset   | Estimate mismatch-induced offset                          | [View](simulations/monte_carlo_offset.png) |
-
----
 
 ---
 
